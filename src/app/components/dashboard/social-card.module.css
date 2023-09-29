@@ -1,0 +1,11 @@
+.socialCard{
+    display:flex;
+    flex-direction:column;
+    max-width:100%;
+    padding:1rem 1.25rem;
+    background:#fff;
+}
+.bordered{
+    padding-bottom:2rem;
+    border-bottom:1px solid var(--gray-5);
+}

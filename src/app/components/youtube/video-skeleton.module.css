@@ -1,0 +1,19 @@
+@keyframes shine {
+    to {
+      background-position-x: -200%;
+    }
+  }
+
+.videoSkeleton{
+    background: linear-gradient(110deg, #f0f0f0 8%, #f9f9f9 18%, #f0f0f0 33%);
+    border-radius: .65rem;
+    background-size: 200% 100%;
+    animation: 1s shine linear infinite;
+  }
+
+.skeletonContainer{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1rem;
+}
+

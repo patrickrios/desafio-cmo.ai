@@ -1,0 +1,33 @@
+.topicModal{
+    background:var(--gray-6);
+    border-radius:1rem;
+    padding:2rem;
+    height:min-content;
+}
+.topicModal header{
+    padding:0 0 1rem;
+    border-bottom: 1px solid var(--gray-5);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+}
+.list{
+    padding:.5rem 0;
+    width:600px;
+    min-height:120px;
+}
+.okButton{
+    background:var(--purple-1);
+    color: var(--gray-6);
+    border-radius:.65rem;
+    padding:.65rem 1rem;
+    margin-top:2rem;
+    float:right;
+    transition: all .2s ease-in-out;
+    cursor:pointer;
+}
+.okButton:hover{
+    background: var(--purple-2);
+}

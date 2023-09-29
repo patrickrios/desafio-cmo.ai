@@ -1,0 +1,90 @@
+.topicList{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:.5rem;
+    flex-wrap: wrap;
+}
+.topicHeaderList{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    padding:1rem 10rem;
+    background:#fbfbfb;
+}
+.topicHeaderList .topics{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:.5rem;
+    flex-wrap: wrap;
+}
+.topicTitle{
+    font-size:1rem;
+}
+.topicSettingsButton{
+    padding:.5rem;
+    border-radius:.5rem;
+    background:var(--gray-5);
+    color:var(--gray-1);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: all .2s ease-in-out;
+    height: max-content;
+}
+.topicSettingsButton:hover{
+    color:var(--primary-blue);
+}
+.topic,
+.topicSelected{
+    cursor:pointer;
+    padding:.35rem .65rem;
+    font-weight:bold;
+    font-size:.75rem;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:.5rem;
+    border-radius:1rem;
+}
+.topic{
+    background:var(--gray-5);
+}
+.topicSelected{
+    background:var(--primary-green);
+    color:var(--gray-6);
+}
+.topicDeletButton{
+    opacity:0.5;
+    transition:all .2s ease-in-out;
+    cursor:pointer;
+    padding:0;
+    display:flex;
+    align-items:center;
+    height:100%;
+    color:var(--gray-3);
+}
+.topicDeletButton:hover{
+    opacity:1;
+    color:var(--red);
+}
+.bordered{
+    border-bottom: 1px solid var(--gray-5);
+}
+.emptyTopicList{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    gap:1rem;
+}
+.emptyTopicListCard{
+    padding:4rem 0;
+    margin-top:1rem;
+}
+.emptyTopicTitle{
+    color: var(--gray-4);
+    font-size:1rem;
+}

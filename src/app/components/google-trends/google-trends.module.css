@@ -1,0 +1,13 @@
+.googleKeywordsIframe,
+.googleDailyTrendsIframe{
+    border:none;
+    border-radius:.5rem;
+    margin-top:1rem;
+    background: #fff;
+}
+.googleKeywordsIframe{
+    height: 425px;
+}
+.googleDailyTrendsIframe{
+    height: 385px;
+}

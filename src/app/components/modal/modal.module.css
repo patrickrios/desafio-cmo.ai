@@ -1,0 +1,11 @@
+.modal{
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    background: var(--modal-transparency);
+    display:flex;
+    justify-content:center;
+    top:0;
+    left:0;
+    padding:4rem 0;
+}

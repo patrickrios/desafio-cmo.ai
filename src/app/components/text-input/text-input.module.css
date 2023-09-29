@@ -1,0 +1,54 @@
+.textInput{
+    display:flex;
+    position: relative;
+}
+
+.textInput input{
+    border:2px solid transparent;
+    border-radius:.25rem;
+    transition: all .25s ease-in-out;
+    font-weight:bold;
+}
+
+.inputWithNoIcon{
+    padding:.5rem .65rem;
+}
+
+.inputHasIcon{
+    padding:.65rem .5rem .65rem 2rem;
+}
+
+.icon{
+    position: absolute;
+    left:.65rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.placedWhite input{
+    background:var(--gray-5);
+}
+
+.placedWhite input:focus{
+    background:var(--gray-6);
+    border:2px solid var(--blue-1);
+}
+
+.placedWhite input::placeholder{
+    color:var(--gray-4)
+}
+
+.placedColor input{
+    background:rgba(255,255,255,0.2);
+}
+
+.placedColor input::placeholder{
+    color:rgba(255,255,255,.5)
+}
+
+.placedColor input:focus{
+    background:rgba(255,255,255,.9);
+}
+.placedColor input:focus::placeholder{
+    color:var(--gray-4);
+}
